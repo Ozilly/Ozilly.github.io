@@ -22,8 +22,12 @@
         <filename>Xtended-X00TD-20181222-XP4-UNOFFICIAL-Release-v8.5.zip</filename>
         <buildtype>Stable</buildtype>
           <!--  <Donate>https://money.yandex.ru/to/410013551746262</Donate>-->
-		<download>https://drive.google.com/file/d/1Ntn1l8aFrdZUwzRgjiAW295sZS-y2FPQ/view</download>
+			<download>https://drive.google.com/file/d/1Ntn1l8aFrdZUwzRgjiAW295sZS-y2FPQ/view</download>
+			<changelog>https://shinigami890.github.io/changelog.txt</changelog>
             <gapps>https://OpenGapps.org</gapps>
+            <!--<recovery>https://drive.google.com/open?id=1u1E2zdEhksfmfIgUjUHFM6Ma6EvC7UmL</recovery>-->
+            <!--<forum>https://4pda.ru/forum/index.php?s=&showtopic=917031&view=findpost&p=77395712</forum>-->
+            <telegram>https://t.me/joinchat/CYNm-US1DQtCK47HuPF8JQ</telegram>
         </X00TD>
     </manufacturer>
 </OTA>
