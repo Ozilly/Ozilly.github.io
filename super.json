@@ -1,11 +1,11 @@
 {
   "response": [
     {
-      "datetime":1547473801,
+      "datetime":1547476006,
       "filename": "SuperiorOS-Destructor-X00TD-UNOFFICIAL-20190114-OTA.zip",
-      "id": "5C1E26EF7E8AB1A2FC4661B19DC8B30B",
+      "id": "6399962e9e47cc9df06b82be5b43edc4",
       "romtype": "UNOFFICIAL",
-      "size":13382286,
+      "size":13382231,
       "url": "https://master.dl.sourceforge.net/project/azmpm1/X00TD/SuperiorOS-Destructor-X00TD-UNOFFICIAL-20190114-OTA.zip",
       "version": "Destructor"
     }
