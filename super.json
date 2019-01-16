@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime":1547573872,
-      "filename": "SuperiorOS-Destructor-X00TD-UNOFFICIAL-20190115-1742.zip",
-      "id": "4e2811109a63a7b4814fc83ae9d5deb7",
+      "datetime":1547635238,
+      "filename": "SuperiorOS-Destructor-X00TD-UNOFFICIAL-20190116-1041.zip",
+      "id": "bac97c46fdb001c01e5c9f1c8412c145",
       "romtype": "UNOFFICIAL",
-      "size":963487733,
-      "url": "https://master.dl.sourceforge.net/project/azmpm1/X00TD/SuperiorOS-Destructor-X00TD-UNOFFICIAL-20190115-1742.zip",
+      "size":969211744,
+      "url": "https://master.dl.sourceforge.net/project/azmpm1/X00TD/SuperiorOS-Destructor-X00TD-UNOFFICIAL-20190116-1041.zip",
       "version": "Destructor"
     }
   ]
