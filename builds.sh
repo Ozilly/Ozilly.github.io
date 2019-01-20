@@ -6,6 +6,7 @@ while true; do
 		repo sync -c -j8 --force-sync --no-clone-bundle --no-tags;
 		rm -R hardware/qcom/fm;
 		rm -R hardware/qcom/display-caf;
+		rm -R hardware/qcom/media-caf;
 		rm -R external/ntfs-3g;
 		rm -R packages/inputmethods;
 		rm -R packages/apps/FMRadio;
@@ -16,7 +17,9 @@ while true; do
 		mkdir hardware/qcom/fm
 		cp -R /home/Shinigami890/builds/src/fm/fm/* hardware/qcom/fm;
 		mkdir hardware/qcom/display-caf;
+		mkdir hardware/qcom/media-caf;
 		cp -R /home/Shinigami890/builds/src/hals/display-caf/* hardware/qcom/display-caf;
+		cp -R /home/Shinigami890/builds/src/hals/media-caf/* hardware/qcom/media-caf;
 		mkdir external/ntfs-3g;
 		cp -R /home/Shinigami890/builds/src/ntfs-3g/* external/ntfs-3g;
 		mkdir packages/apps/FMRadio;
