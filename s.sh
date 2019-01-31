@@ -2,7 +2,7 @@ while true; do
     read -p "Синхронизировать исходники? " yn
     case $yn in
         [Yy]* ) 
-		repo sync -c -j8 --force-sync --no-clone-bundle --no-tags;
+		repo sync -c -j10 --force-sync --no-clone-bundle --no-tags;
 		rm -R hardware/qcom/fm;
 		rm -R hardware/qcom/display-caf;
 		rm -R external/ntfs-3g;
@@ -10,6 +10,7 @@ while true; do
 		rm -R packages/apps/FMRadio;
 		rm -R packages/apps/Messaging;
 		rm -R packages/apps/Snap;
+		rm -R packages/apps/Launcher3;
 		mkdir hardware/qcom/fm
 		cp -R /home/Shinigami890/builds/src/fm/fm/* hardware/qcom/fm;
 		mkdir hardware/qcom/display-caf;
@@ -26,7 +27,7 @@ while true; do
 		echo    "Начинаю сборку...";
 		source build/envsetup.sh && lunch syberia_X00TD-userdebug;
 		
-		mka bacon -j8;
+		mka bacon -j10;
 		
 while true; do
 		read -p "Сборка завершена, выгрузить на ГУГЛ ДИСК? " yn
@@ -57,7 +58,7 @@ done;;
 		echo "Начинаю сборку без синхронизации...";
 		source build/envsetup.sh && lunch sybera_X00TD-userdebug;
 		
-		mka bacon -j8
+		mka bacon -j10
 		exit;;
         * ) echo "Введите да или нет";;
     esac
