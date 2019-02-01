@@ -1,21 +1,13 @@
 {
-        "name": "Zenfone Max Pro M1",
-        "brand": "Asus",
-        "codename": "X00TD",
-        "supported_versions":[
-            {
-                "version_code":"oreo",
-                "version_name":"Oreo",
-                "maintainer_name": "Shinigami890",
-                "maintainer_url": "https://github.com/Shinigami890",
-                "xda_thread": "https://drive.google.com/open?id=1tHEwg-yKbe1gvxd9HrXDQwmITELjb3Lr"
-            },
-            {
-                "version_code":"pie",
-                "version_name":"Pie",
-                "maintainer_name": "Shinigami890",
-                "maintainer_url": "https://github.com/Shinigami890",
-                "xda_thread": "https://drive.google.com/open?id=1tHEwg-yKbe1gvxd9HrXDQwmITELjb3Lr"
-            }
-        ]
+  "response": [
+    {
+      "datetime": 1230764400,
+      "filename": "ota-package.zip",
+      "id": "c845e635c584dc5a5b3f20d477d809b7",
+      "romtype": "UNOFFICIAL",
+      "size": 917989825,
+      "url": "https://example.com/ota-package.zip",
+      "version": "2.2"
     }
+  ]
+}
