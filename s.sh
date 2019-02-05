@@ -4,6 +4,7 @@ while true; do
         [Yy]* ) 
 		repo sync -c -j10 --force-sync --no-clone-bundle --no-tags;
 		rm -R hardware/qcom/fm;
+		rm -R vendor/miui;
 		rm -R hardware/qcom/display-caf;
 		rm -R external/ntfs-3g;
 		rm -R packages/inputmethods;
@@ -25,7 +26,7 @@ while true; do
 		case $yn in
         [Yy]* ) 
 		echo    "Начинаю сборку...";
-		source build/envsetup.sh && lunch syberia_X00TD-userdebug;
+		source build/envsetup.sh && lunch syberia_X00T-userdebug;
 		
 		mka bacon -j10;
 		
@@ -34,7 +35,7 @@ while true; do
 		case $yn in
         [Yy]* ) 
 		echo    "Выгружаю...";
-		cd out/target/product/X00TD;
+		cd out/target/product/X00T;
 		rm -r *.md5sum;
 		linkk=$(ls -t | grep zip | head -1);
 		sudo gdrive upload $linkk;
@@ -56,7 +57,7 @@ done
 done;;
         [Nn]* ) 
 		echo "Начинаю сборку без синхронизации...";
-		source build/envsetup.sh && lunch sybera_X00TD-userdebug;
+		source build/envsetup.sh && lunch sybera_X00T-userdebug;
 		
 		mka bacon -j10
 		exit;;
