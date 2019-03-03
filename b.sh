@@ -4,8 +4,6 @@ while true; do
         [Yy]* ) 
 		repo sync -c -j16 --force-sync --no-clone-bundle --no-tags;
 		rm -R hardware/qcom/fm;
-		rm -R vendor/miui;
-		rm -R hardware/qcom/display-caf;
 		rm -R external/ntfs-3g;
 		rm -R packages/inputmethods;
 		rm -R packages/apps/Calendar;
@@ -14,13 +12,12 @@ while true; do
 		rm -R packages/apps/ExactCalculator;
 		rm -R packages/apps/FMRadio;
 		rm -R packages/apps/Messaging;
-		rm -R packages/apps/Snap;
+		rm -R packages/apps/Snapdragoncamera2;
 		rm -R packages/apps/Launcher3;
+		rm -R packages/apps/Launcher2;
 		rm -R packages/apps/Camera2;
 		mkdir hardware/qcom/fm
 		cp -R /home/Shinigami890/builds/src/fm/fm/* hardware/qcom/fm;
-		mkdir hardware/qcom/display-caf;
-		cp -R /home/Shinigami890/builds/src/hals/display-caf/* hardware/qcom/display-caf;
 		mkdir external/ntfs-3g;
 		cp -R /home/Shinigami890/builds/src/ntfs-3g/* external/ntfs-3g;
 		mkdir packages/apps/FMRadio;
@@ -31,9 +28,9 @@ while true; do
 		case $yn in
         [Yy]* ) 
 		echo    "Начинаю сборку...";
-		source build/envsetup.sh && lunch syberia_X00TD-userdebug;
+		source build/envsetup.sh && lunch baikalos_X00TD-userdebug;
 		
-		mka bacon -j16;
+		make -j16 otapackage;
 		
 while true; do
 		read -p "Сборка завершена, выгрузить на ГУГЛ ДИСК? " yn
@@ -62,9 +59,9 @@ done
 done;;
         [Nn]* ) 
 		echo "Начинаю сборку без синхронизации...";
-		source build/envsetup.sh && lunch sybera_X00T-userdebug;
+		source build/envsetup.sh && lunch baikalos_X00TD-userdebug;
 		
-		mka bacon -j10
+		make -j16 otapackage
 		exit;;
         * ) echo "Введите да или нет";;
     esac
