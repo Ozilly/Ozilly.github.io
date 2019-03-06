@@ -37,6 +37,7 @@
     <string name="default_string">Стандартные</string>
     <string name="default_settings">Стандартные настройки</string>
     <string name="default_settings_summary">Стандартная AOSP панель навигации</string>
+    <string name="navbar_editor_summary">Настройка панели навигации</string>
     <!-- Actions dialog and default task values set in ActionPreference xml-->
     <string name="choose_action_title">Выбрать действие</string>
     <string name="action_entry_default_action">Настройки по умолчанию</string>
@@ -136,6 +137,13 @@
     <string name="pulse_auto_color_title">Автоматический цввет Pulse</string>
     <string name="pulse_auto_color_summary">Синхронизировать цвет с обложками альбомов. Переопределяет лаву и прозрачность линий.</string>
     <!-- Pulse config -->
+    <string name="pulse_blacklist_title">Черный список приложений</string>
+    <string name="pulse_blacklist_summary">Приложения, которые будут пропущены для Pulse</string>
+    <string name="pulse_blacklist_apps_cat_title">Черный список</string>
+    <string name="pulse_blacklist_apps_title">Черный список приложений</string>
+    <string name="pulse_blacklist_apps_summary">Приложения, не отображаемые в панели</string>
+    <string name="pulse_blacklist_add_apps_title">Добавить приложение</string>
+    <string name="pulse_blacklist_add_apps_summary">Нажмите здесь, чтобы добавить, нажмите на добавленное приложение, чтобы удалить его</string>
     <string name="pulse_custom_dimen">Ширина панели</string>
     <string name="pulse_custom_div">Расстояние между панелями</string>
     <string name="pulse_filled_block_size">Размер блока</string>
@@ -194,4 +202,7 @@
     <string name="smartbar_double_tap_sleep_title">Двойное нажатие чтобы усыпить устройство </string>
     <string name="smartbar_double_tap_sleep_summary">Дважды нажмите на пустые области панели навигации, чтобы усыпить устройство</string>
     <string name="reset">Сброс</string>
+    <!-- Navbar Animation -->
+    <string name="pixel_navbar_anim_title">Анимация Pixel</string>
+    <string name="pixel_navbar_anim_summary">Переключить анимацию кнопки \"Дом\" на панели навигации</string>
 </resources>
