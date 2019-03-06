@@ -6,17 +6,20 @@ while true; do
 		rm -R hardware/qcom/fm;
 		rm -R external/ntfs-3g;
 		rm -R packages/inputmethods;
+		rm -R hardware/qcom/display-caf;
 		rm -R packages/apps/Calendar;
 		rm -R packages/apps/Contacts;
 		rm -R packages/apps/DeskClock;
 		rm -R packages/apps/ExactCalculator;
 		rm -R packages/apps/FMRadio;
 		rm -R packages/apps/Messaging;
-		rm -R packages/apps/Snapdragoncamera2;
+		rm -R packages/apps/SnapdragonCamera2;
 		rm -R packages/apps/Launcher3;
 		rm -R packages/apps/Launcher2;
 		rm -R packages/apps/Camera2;
-		mkdir hardware/qcom/fm
+		mkdir hardware/qcom/fm;
+		mkdir hardware/qcom/display-caf;
+		cp -R /home/Shinigami890/builds/src/hals/display-caf/* hardware/qcom/display-caf;
 		cp -R /home/Shinigami890/builds/src/fm/fm/* hardware/qcom/fm;
 		mkdir external/ntfs-3g;
 		cp -R /home/Shinigami890/builds/src/ntfs-3g/* external/ntfs-3g;
