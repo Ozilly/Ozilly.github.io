@@ -52,7 +52,7 @@
     <string name="force_theme_warning_title">Предупреждение !</string>
     <string name="force_theme_warning_message">Это может вызвать конфликты между темами substratum и системными темами. Мы надеемся, что вы знаете, во что вы ввязываетесь. #DontBlameUsLater: D</string>
     <!-- device maintainer -->
-    <string name="device_maintainer">Ваш Noob Guy</string>
+    <string name="device_maintainer">Сопровождающий</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Поворот</string>
     <string name="display_rotation_disabled">Выключен</string>

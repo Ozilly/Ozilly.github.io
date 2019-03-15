@@ -183,8 +183,8 @@
     <string name="smartbar_ime_action_dynamic">Стрелки ввода / медиа</string>
     <string name="smartbar_backup_current_config_title">Сохранить профиль</string>
     <string name="smartbar_restore_config_title">Восстановить профиль</string>
-    <string name="smartbar_config_name_edit_dialog_title">Smartbar profile name</string>
-    <string name="smartbar_config_name_edit_dialog_message">Enter name or leave blank</string>
+    <string name="smartbar_config_name_edit_dialog_title">Имя профиля панели навигации</string>
+    <string name="smartbar_config_name_edit_dialog_message">Введите имя или оставьте пустым</string>
     <string name="smartbar_config_dialog_title">Профили Смартбара</string>
     <string name="smartbar_config_backup_success_toast">Смартбар профиль сохранен</string>
     <string name="smartbar_config_restore_success_toast">Смартбар профиль восстановлен</string>
@@ -197,8 +197,8 @@
     <string name="smartbar_longpress_delay_normal">Нормальная задержка</string>
     <string name="smartbar_longpress_delay_long">Долгая задержка</string>
     <string name="smartbar_custom_icon_size_title">Пользовательское масштабирование значков</string>
-    <string name="one_handed_mode_title">Режим управления одной рукой</string>
-    <string name="one_handed_mode_summary">Активация \"Режима управления одной рукой\" свайпом в панели навигации</string>
+	<string name="one_hand_mode_title">Режим управления одной рукой</string>
+    <string name="one_hand_mode_summary">Активация \"Режима управления одной рукой\" свайпом в панели навигации</string>
     <string name="smartbar_double_tap_sleep_title">Двойное нажатие чтобы усыпить устройство </string>
     <string name="smartbar_double_tap_sleep_summary">Дважды нажмите на пустые области панели навигации, чтобы усыпить устройство</string>
     <string name="reset">Сброс</string>

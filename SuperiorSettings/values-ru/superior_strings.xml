@@ -204,7 +204,7 @@
     <string name="powermenu_advanced_reboot_summary">Включение расширенного меню перезагрузки, для перезагрузки в обычном режиме, в рекавери и бутлоадер. Так же перезагрузка SystemUI</string>
     <string name="powermenu_screenshot_title">Скриншот</string>
     <string name="powermenu_category_visibility">Настройки экрана блокировки</string>
-    <string name="powermenu_lockscreen_title">Отображение на экранее блокировки</string>
+    <string name="powermenu_lockscreen_title">Отображение на экране блокировки</string>
     <string name="powermenu_lockscreen_summary">Включить меню питания на экране блокировки</string>
     <string name="powermenu_ls_reboot_summary">Перезагрузка на экране блокировки</string>
     <string name="powermenu_ls_advanced_reboot_summary">Отображать меню расширенной перезагрузки на экране блокировки</string>
@@ -381,7 +381,7 @@
     <string name="weather_title">Погода</string>
     <string name="weather_unit">Единица измерения температуры</string>
     <!-- Data disabled icon -->
-    <string name="data_disabled_icon_title">Показать значек отключеной передачи данных</string>
+    <string name="data_disabled_icon_title">Показать значек отключенной передачи данных</string>
     <string name="data_disabled_icon_summary">Показывать крестик рядом с индикатором приема, когда данные отключены</string>
     <!-- App Ops -->
     <string name="app_ops_settings_title">Конфиденциальность</string>
@@ -416,8 +416,8 @@
     <string name="qstile_default">По умолчанию</string>
     <string name="qstile_circle_gradient">Круглые (градиент)</string>
     <string name="qstile_circle_trim">Круглые (с окантовкой)</string>
-    <string name="qstile_circle_dualtone">Двух-тоновый круг</string>
-    <string name="qstile_dual_tone_circle">Двух-тоновый круг (с окантовкой)</string>
+    <string name="qstile_circle_dualtone">Двухтоновый круг</string>
+    <string name="qstile_dual_tone_circle">Двухтоновый круг (с окантовкой)</string>
     <string name="qstile_inkdrop">Падение чернил</string>
     <string name="qstile_mountain">Гора</string>
     <string name="qstile_ninja">Ниндзя</string>
@@ -462,7 +462,7 @@
     <string name="qs_running_services_summary">Убрать иконку запущенных служб</string>
     <!-- Battery Bar -->
     <string name="battery_bar_title">Полоса заряда батареи</string>
-    <string name="battery_bar_summary">Отображение и настройка панели батарей рядом со строкой состояния или панелью навигации</string>
+    <string name="battery_bar_summary">Отображение и настройка панели батареи рядом со строкой состояния или панелью навигации</string>
     <string name="battery_bar">Расположение панели заряда батареи</string>
     <string name="battery_bar_no_navbar">Расположение панели заряда батареи</string>
     <string name="battery_bar_location_hide">Скрыть</string>
@@ -630,7 +630,7 @@
     <string name="fp_unlock_keystore_summary">\"Разблокировать после перезагрузки с помощью отпечатка пальца без использования PIN-кода/Пароля/Графического ключа
 Примечание: используйте на свой страх и риск!\"</string>
     <!-- Quick Settings brightness icon -->
-    <string name="brightness_icon_title">Значок авто-яркости</string>
+    <string name="brightness_icon_title">Значок автояркости</string>
     <string name="brightness_icon_summary">Показать значок включения авто-яркости</string>
     <!-- Quick Settings brightness side buttons -->
     <string name="brightness_side_buttons_title">Кнопки регулировки яркости</string>
