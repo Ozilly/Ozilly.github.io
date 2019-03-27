@@ -713,8 +713,8 @@
     <string name="burn_in_protection_summary">Передвигать иконки в строке состояния для предотвращения выгорания экрана</string>
     <string name="burn_in_protection_interval_title">Интервал смещения</string>
     <!-- Show statusbar on lockscreen -->
-    <string name="lockscreen_hide_status_bar_title">Скрыть строку состояния на экране блокировки</string>
-    <string name="lockscreen_hide_status_bar_summary">Если включено, строка состояния будет скрыта на экране блокировки</string>
+    <string name="lockscreen_hide_status_bar_title">Показать строку состояния на экране блокировки</string>
+    <string name="lockscreen_hide_status_bar_summary">Если выключено, строка состояния будет скрыта на экране блокировки</string>
     <!-- Doze settings editor -->
     <string name="advanced_doze_settings">Дополнительные настройки спящего режима</string>
     <string name="doze_settings_title">Настройки спящего режима</string>
@@ -851,6 +851,8 @@
     <string name="qs_footer_services_summary">Отображать значок запущенных служб внизу быстрых настроек</string>
     <string name="qs_footer_settings_title">Значок настроек</string>
     <string name="qs_footer_settings_summary">Отображать значок настроек внизу быстрых настроек</string>
+	<string name="qs_footer_user_title">Иконка переключения пользователя</string>
+    <string name="qs_footer_user_summary">Отображать иконку переключения пользователя внизу быстрых настроек(при условии что пользователей более одного)</string>
     <!-- Expanded desktop -->
     <string name="expanded_desktop_pref_title">Расширенный рабочий стол</string>
     <string name="expanded_desktop_pref_summary">Скрывать статус бар и панель навигации</string>
@@ -1218,14 +1220,18 @@
     <string name="slim_recents_mem_display_text_color">Цвет текста в панели памяти</string>
     <string name="usb_default_config_title">Конфигурация USB</string>
     <string name="usb_default_config_summary">Выберите поведение по умолчанию при подключении к устройству через USB</string>
+	
     <!-- Ambient music ticker -->
     <string name="force_ambient_for_media_title">Переключатель музыки</string>
     <string name="force_ambient_for_media_summary">Отображение информации о воспроизводимой музыкальной дорожке на  Ambient дисплее</string>
+	
     <!-- QS background opacity -->
     <string name="qs_panel_alpha_title">Панель прозрачности быстрых настроек</string>
+	
     <!-- Recents icon pack -->
     <string name="recents_icon_pack_title">Пакет иконок</string>
     <string name="recents_icon_pack_summary">Применить пользовательский пакет значков для панели «Недавние приложения»</string>
+	
     <!-- QS themes -->
     <string name="qs_themes_category_title">Темы быстрых настроек</string>
     <string name="qs_panel_color_title">Цветовая панель быстрых настроек</string>
@@ -1235,19 +1241,23 @@
     <string name="qs_bg_accent_summary">Установить цвет фона быстрых настроек из системного акцентного цвета</string>
     <string name="qs_bg_use_fw">Использовать цвета по умолчанию</string>
     <string name="qs_bg_use_fw_summary">Отключить пользовательские стили быстрых настроек для внешних движков тем</string>
+	
     <!-- Switch styles -->
     <string name="switch_style_title">Вид переключателей настроек</string>
     <string name="switch_default">По умолчанию</string>
     <string name="switch_md2">Материальный дизайн 2</string>
     <string name="switch_oneplus">OnePlus</string>
+	
     <!-- Ambient visualizer -->
     <string name="ambient_visualizer_title">Показывать на расширенном дисплее</string>
     <string name="ambient_visualizer_summary">Показывает панели визуализации также на расширенном дисплее (но менее непрозрачно</string>
+	
     <!-- Lockscreen items -->
     <string name="lockscreen_clock_title">Виджет часов</string>
     <string name="lockscreen_clock_summary">Показать виджет часов на на экране блокировки</string>
     <string name="lockscreen_info_title">элементы под часами</string>
     <string name="lockscreen_info_summary">Показать дату, погоду, будильник и Дзэн на на экране блокировки</string>
+	
     <!-- Lockscreen clock styles -->
     <string name="lockscreen_clock_selection_title">Стиль часов</string>
     <string name="lockscreen_clock_selection_digital">По умолчанию</string>
@@ -1265,6 +1275,7 @@
     <string name="lockscreen_clock_selection_dot">Аналоговый (Точка)</string>
     <string name="lockscreen_clock_selection_spectrum">Аналог (Спектрум)</string>
     <string name="lockscreen_clock_selection_sneeky">Аналог (Sneeky)</string>
+	
     <!-- Display cutout options -->
     <string name="cutout_main">Показать вырез</string>
     <string name="cutout_main_summary">Настроить вырез</string>
@@ -1276,6 +1287,7 @@
     <string name="stock_statusbar_in_hide_summary">Использовать высоту строки состояния по умолчанию в скрытом режиме</string>
     <string name="qs_edit_title">Изменить значок</string>
     <string name="qs_edit_summary">Отображать значок настроек внизу быстрых настроек</string>
+	
     <!-- Edge gestures -->
     <string name="edge_gestures_title">Жесты от края экрана</string>
     <string name="edge_gestures_summary">Использовать жесты от края для навигации</string>
@@ -1307,6 +1319,7 @@
     <string name="file_header_select_title">Выбрать локальное изображение</string>
     <string name="file_header_select_summary">Выберите изображение из хранилища</string>
     <string name="file_header_provider_title">Одно изображение</string>
+	
     <!-- Pie -->
     <string name="pa_pie_control_summary">Ярлыки по краям и элементы навигации</string>
     <string name="pa_pie_control_title">Управление Pie</string>
@@ -1329,13 +1342,16 @@
     <string name="pa_pie_gravity_bottom">Внизу</string>
     <string name="pa_pie_gravity_right">Справа</string>
     <string name="pa_pie_gravity_left">Слева</string>
+	
     <!-- Ambient category -->
     <string name="custom_ambient_display_title">Опции активного дисплея</string>
     <string name="custom_ambient_display_summary">Дополнительные настройки поведения активного дисплея</string>
+	
     <!-- Theme picker -->
     <string name="theme_picker_title">Цвет темы</string>
     <string name="theme_picker_summary">Выберите  цвет для Shady/Glassy  тем</string>
     <string name="theme_picker_dialog_title">Выберите цвет темы</string>
+	
     <!-- Active edge -->
     <string name="active_edge_title">Активный край</string>
     <string name="active_edge_summary">Настройка параметров активного Края  </string>
@@ -1364,4 +1380,28 @@
     <string name="action_qs_panel">Панель быстрых настроек</string>
     <string name="action_app_action">Приложения</string>
     <string name="action_ringer_modes">Режим звонка</string>
+	
+	<!-- Keyguard multiuser switch -->
+    <string name="keyguard_multiuser_switch_title">Переключение пользователей</string>
+    <string name="keyguard_multiuser_switch_summary">Отобразить переключение пользователей в статус баре</string>
+	
+	<!-- Adaptive icon shape -->
+    <string name="icon_shape_title">Форма значка приложения</string>
+    <string name="icon_shape_system_default">Системные установки по умолчанию</string>
+    <string name="icon_shape_square">Квадрат</string>
+    <string name="icon_shape_rounded_square">Скругленный квадрат</string>
+    <string name="icon_shape_squircle">Прямоугольник с округлыми углами</string>
+    <string name="icon_shape_circle">Круг</string>
+    <string name="icon_shape_teardrop">Слеза</string>
+    <string name="icon_shape_hexagon">Hexagon</string>
+    <string name="icon_shape_changed_title">Обновить форму значка</string>
+    <string name="icon_shape_changed_message">Изменение формы значка повлияет только на новые запущенные приложения. Таким образом, рекомендуется полностью перезагрузить устройство, чтобы полностью применить этот параметр. Если некоторые приложения все еще используют старую форму после этого, попробуйте очистить кэш своих приложений.</string>
+    <string name="reboot_dialog_ok">Перезагрузить</string>
+    <string name="reboot_dialog_cancel">@string/отмена</string>
+	
+	<!-- Torch Power button gestures -->
+    <string name="power_button_torch_gesture_title">Выключенный экран</string>
+    <string name="power_button_torch_gesture_none">Выкл</string>
+    <string name="power_button_torch_gesture_dt">Двойное нажатие кнопки питания</string>
+    <string name="power_button_torch_gesture_lp">Долгое нажатие кнопки питания</string>
 </resources>
