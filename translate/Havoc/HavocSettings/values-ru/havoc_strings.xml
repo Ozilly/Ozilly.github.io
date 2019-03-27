@@ -599,6 +599,10 @@
     <string name="clock_date_right">Справа от часов</string>
     <string name="clock_date_left">Слева от часов</string>
     <string name="clock_date_position">Расположение даты</string>
+	<string name="status_bar_clock_auto_hide_title">Автоскрытие</string>
+    <string name="status_bar_clock_auto_hide_summary">Интервал скрытия и отображения часов</string>
+    <string name="status_bar_clock_auto_hide_hdur_title">Продолжительность скрытия</string>
+    <string name="status_bar_clock_auto_hide_sdur_title">Продолжительность отображения</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Предупреждение в нижней части быстрых настроек</string>
     <string name="qs_footer_warnings_summary">Показывать предупреждение в нижней панели быстрых настроек, когда сеть контролируется сторонними приложениями или VPN</string>
