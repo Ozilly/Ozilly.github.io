@@ -1397,7 +1397,7 @@
     <string name="icon_shape_changed_title">Обновить форму значка</string>
     <string name="icon_shape_changed_message">Изменение формы значка повлияет только на новые запущенные приложения. Таким образом, рекомендуется полностью перезагрузить устройство, чтобы полностью применить этот параметр. Если некоторые приложения все еще используют старую форму после этого, попробуйте очистить кэш своих приложений.</string>
     <string name="reboot_dialog_ok">Перезагрузить</string>
-    <string name="reboot_dialog_cancel">@string/отмена</string>
+    <string name="reboot_dialog_cancel">@string/cancel</string>
 	
 	<!-- Torch Power button gestures -->
     <string name="power_button_torch_gesture_title">Выключенный экран</string>
