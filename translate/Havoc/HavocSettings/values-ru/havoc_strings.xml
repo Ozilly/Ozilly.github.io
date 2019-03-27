@@ -140,6 +140,11 @@
     <string name="fprint_sucess_vib_summary">Вибрировать при успешном распознавании отпечатка пальца</string>
     <string name="face_auto_unlock_title">Автоматическая разблокировка лицом</string>
     <string name="face_auto_unlock_summary">Пропустить экран блокировки после разблокирования смартфона лицом</string>
+	<!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Анамация блокировки экрана</string>
+    <string name="screen_off_animation_fade">Затухание</string>
+    <string name="screen_off_animation_crt">Старый телевизор</string>
+    <string name="screen_off_animation_scale">Масштаб</string>
     <!-- Force expanded notifications -->
     <string name="force_expanded_notifications_title">Принудительно расширять уведомления</string>
     <string name="force_expanded_notifications_summary">Доступно для приложений поддерживающих расширенные уведомления</string>
@@ -1160,6 +1165,10 @@
     <string name="screenrecord_quality_low">Низкое</string>
     <string name="screenrecord_quality_medium">Среднее</string>
     <string name="screenrecord_quality_high">Высокое</string>
+	<!-- Stock recents -->
+    <string name="recents_settings_title">Настройки</string>
+    <string name="stock_recents_title">AOSP недавние</string>
+    <string name="stock_recents_summary">Настройте дополнительные параметры для недавних в стиле AOSP</string>
     <!-- Slim recents -->
     <string name="slim_recents_title">Недавние приложения в стиле Slim</string>
     <string name="slim_recents_summary">Позволяет использовать альтернативный экран недавних приложений</string>
@@ -1214,6 +1223,7 @@
     <!-- Slim recents membar -->
     <string name="slim_recents_mem_display_category_title">Панель памяти</string>
     <string name="slim_recents_mem_display_title">Отображать панель памяти</string>
+	<string name="slim_recents_mem_display_summary">Показать индикатор выполнения с отображением оперативной памяти</string>
     <string name="slim_recents_mem_display_summaryOn">Включить панель памяти</string>
     <string name="slim_recents_mem_display_summaryOff">Панель памяти выключена</string>
     <string name="slim_recents_mem_display_color">Цвет панели памяти</string>
@@ -1400,7 +1410,7 @@
     <string name="reboot_dialog_cancel">@string/cancel</string>
 	
 	<!-- Torch Power button gestures -->
-    <string name="power_button_torch_gesture_title">Выключенный экран</string>
+    <string name="power_button_torch_gesture_title">Настройка включения фонарика по кнопке питания</string>
     <string name="power_button_torch_gesture_none">Выкл</string>
     <string name="power_button_torch_gesture_dt">Двойное нажатие кнопки питания</string>
     <string name="power_button_torch_gesture_lp">Долгое нажатие кнопки питания</string>
