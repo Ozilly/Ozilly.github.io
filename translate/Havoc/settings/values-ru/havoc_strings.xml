@@ -381,7 +381,7 @@
     <string name="notification_sound_battery_charge_title">Включить предупреждение об уровне заряда батареи</string>
     <string name="notification_sound_battery_charge_summary">Воспроизвести звук, когда батарея достигает заданного уровня</string>
     <string name="notification_battery_charge_level_title">Предупреждение о зарядке аккумулятора</string>
-    <string name="notification_battery_charge_level_summary">Воспроизводить звук, когда батареи достигает указанного уровня зарядки</string>
+    <string name="notification_battery_charge_level_summary">Воспроизводить звук, когда батарея достигает указанного уровня зарядки</string>
     <string name="notification_battery_charge_level_seek_bar">Уровень заряда батареи</string>
     <string name="notification_battery_charge_level_ringtone">Рингтон</string>
     <string name="notification_battery_charge_level_silent">Без звука</string>
@@ -396,10 +396,10 @@
     <string name="security_settings_fingerprint_sensor_location_right">справа</string>
     <!-- Havoc-OS info -->
     <string name="havoc_title">Havoc</string>
-    <string name="havoc_info">Havoc version</string>
+    <string name="havoc_info">Версия Havoc</string>
     <string name="havoc_maintainer">Сопровождающий</string>
     <string name="havoc_date">Дата сборки</string>
-    <string name="havoc_type">Build type</string>
+    <string name="havoc_type">Тип сборки</string>
     <string name="havoc_device">Устройство</string>
     <string name="havoc_version">Версия прошивки</string>
     <!-- EdgeGesture service -->
@@ -438,4 +438,11 @@
     <!-- Home button wake -->
     <string name="home_wake_button_title">Кнопка Дом будит экран</string>
     <string name="home_wake_button_summary">Включить пробуждение экрана по  нажатию кнопки Дом</string>
+	<!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Настройка фонарика</string>
+    <string name="double_tap_power_flashlight_title">Настройка включения фонарика по кнопке питания</string>
+    <string name="torch_power_button_gesture_none">Выкл</string>
+    <string name="torch_power_button_gesture_dt">Двойное нажатие кнопки питания</string>
+    <string name="torch_power_button_gesture_lp">Долгое нажатие кнопки питания</string>
+	
 </resources>

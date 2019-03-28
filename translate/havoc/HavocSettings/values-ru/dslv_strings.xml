@@ -109,9 +109,9 @@
     <string name="shortcut_action_recent">Недавние</string>
     <string name="shortcut_action_power">Экран выкл</string>
     <string name="shortcut_action_search">Поиск в приложении</string>
-    <string name="shortcut_action_ring_vib">Ring/Vib</string>
-    <string name="shortcut_action_ring_silent">Ring/Silent</string>
-    <string name="shortcut_action_ring_vib_silent">Ring/Vib/Silent</string>
+    <string name="shortcut_action_ring_vib">Звонок/Вибрация</string>
+    <string name="shortcut_action_ring_silent">Звонок/Не беспокоить</string>
+    <string name="shortcut_action_ring_vib_silent">Звонок/Вибрация/Не беспокоить</string>
     <string name="shortcut_action_camera">Камера</string>
     <string name="shortcut_action_media_next">Музыка - следующий трек</string>
     <string name="shortcut_action_media_play_pause">Музыка - играть/пауза</string>

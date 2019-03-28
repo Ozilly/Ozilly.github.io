@@ -303,4 +303,48 @@
     <string name="dlg_ok">Ок</string>
     <string name="dlg_cancel">Отмена</string>
     <string name="kill">Принудительное закрытие приложения</string>
+	
+	<!--Google sound search tile -->
+    <string name="quick_settings_sound_search">Поиск звуков</string>
+
+    <!-- QS Config -->
+    <string name="qs_menu_item_columns">Колонки</string>
+    <string name="qs_menu_item_columns_landscape">Колонки (Ландшафт)</string>
+    <string name="qs_menu_item_columns_three">3</string>
+    <string name="qs_menu_item_columns_four">4</string>
+    <string name="qs_menu_item_columns_five">5</string>
+    <string name="qs_menu_item_columns_six">6</string>
+    <string name="qs_menu_item_columns_seven">7</string>
+    <string name="qs_menu_item_columns_eight">8</string>
+    <string name="qs_menu_item_reset">Сброс</string>
+    <string name="qs_menu_item_titles">Показать подписи</string>
+    <string name="qs_menu_item_rows">Строки</string>
+    <string name="qs_menu_item_rows_landscape">Строки (Ландшафт)</string>
+    <string name="qs_menu_item_rows_one">1</string>
+    <string name="qs_menu_item_rows_two">2</string>
+    <string name="qs_menu_item_rows_three">3</string>
+    <string name="qs_menu_item_rows_four">4</string>
+    <string name="qs_menu_item_rows_five">5</string>
+    <string name="qs_menu_item_rows_six">6</string>
+    <string name="qs_menu_item_qs_columns">Столбцы в быстрых настройках</string>
+    <string name="qs_menu_item_columns_auto">Автоматически</string>
+
+    <!-- Ambient Display Pixel-Like string -->
+    <string name="ambientmusic_songinfo">%s by %s</string>
+
+    <!-- App Picker Tile -->
+    <string name="quick_settings_apppicker">Выбор приложений</string>
+
+    <!-- Pie controls -->
+    <string name="pie_date_format">EEEE, dd MMMM yyyy</string>
+    <string name="pie_hour_format_12">hh:mm</string>
+    <string name="pie_hour_format_24">HH:mm</string>
+    <string name="pie_am_pm">a</string>
+    <string name="pie_state_name">Элементы Управления Pie</string>
+    <string name="pie_state_summary">Использовать элементы Управления Pie в полноэкранном режиме</string>
+    <string name="pie_battery_level">"УРОВЕНЬ ЗАРЯДА БАТАРЕИ "</string>
+    <string name="quick_settings_pie">Элементы Управления Pie</string>
+	
+	<!-- OneHand mode QS tile -->
+    <string name="qs_onehand_label">Управление одной рукой</string>
 </resources>

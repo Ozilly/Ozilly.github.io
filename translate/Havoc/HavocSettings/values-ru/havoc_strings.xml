@@ -147,7 +147,7 @@
     <string name="screen_off_animation_scale">Масштаб</string>
     <!-- Force expanded notifications -->
     <string name="force_expanded_notifications_title">Принудительно расширять уведомления</string>
-    <string name="force_expanded_notifications_summary">Доступно для приложений поддерживающих расширенные уведомления</string>
+    <string name="force_expanded_notifications_summary">Доступно для приложений, поддерживающих расширенные уведомления</string>
     <!-- Toast Animation -->
     <string name="toast_animation_title">Анимация всплывающих уведомлений</string>
     <string name="toast_none_animation">Ничего</string>
@@ -224,7 +224,7 @@
     <string name="qs_tile_animation_style_off">Без анимации</string>
     <string name="qs_tile_animation_style_flip">Переворот</string>
     <string name="qs_tile_animation_style_rotate">Вращение</string>
-    <string name="qs_tile_animation_duration_low">Низкая</string>
+    <string name="qs_tile_animation_duration_low">Медленно</string>
     <string name="qs_tile_animation_duration_default">По умолчанию</string>
     <string name="qs_tile_animation_duration_fast">Быстро</string>
     <string name="qs_set_animation_style">%1$s</string>
@@ -268,6 +268,7 @@
     <string name="button_backlight_on_touch_only_title">Подсветка кнопок при касании</string>
     <string name="button_backlight_on_touch_only_summary">Включать подсветку клавиш только после касания</string>
     <!-- HW Keys customization -->
+	<string name="action_value_default_action" translatable="false">По умолчанию</string>
     <string name="picker_activities">Действия</string>
     <string name="select_custom_app_title">Выберите пользовательское приложение</string>
     <string name="select_custom_activity_title">Выбрать собственное действие</string>
@@ -368,11 +369,11 @@
     <string name="volume_steps_voice_call_title">Уровень громкости: Голосовой вызов</string>
     <string name="volume_steps_reset">Сбросить</string>
     <!-- Volume swap buttons -->
-    <string name="swap_volume_buttons_title">Переориенация</string>
+    <string name="swap_volume_buttons_title">Переориентация</string>
     <string name="swap_volume_buttons_summary">Поменять местами кнопки регулировки громкости при повороте экрана</string>
     <!-- Toast icon -->
     <string name="toast_icon_title">Всплывающая иконка</string>
-    <string name="toast_icon_summary">Отображать значок приложения, генерирующее всплывающее сообщение</string>
+    <string name="toast_icon_summary">Отображать значок приложения, генерирующего всплывающее сообщение</string>
     <!-- Pin ripple -->
     <string name="lockscreen_pin_ripple_title">Пульсация цифр</string>
     <string name="lockscreen_pin_ripple_summary">Отключите, чтобы убрать пульсацию при наборе пин-кода</string>
@@ -465,10 +466,10 @@
     <string name="three_finger_gesture">Свайп для создания скриншота</string>
     <string name="three_finger_gesture_summary">Проведите по экрану тремя пальцами вниз для создания скриншота</string>
     <!-- Wakelock blocker -->
-    <string name="wakelock_blocker_title">Блокировщик вейклоков</string>
-    <string name="wakelock_blocker_summary">Блокировать системные вэйклоки</string>
+    <string name="wakelock_blocker_title">Блокировщик wakelock</string>
+    <string name="wakelock_blocker_summary">Блокировать системные wakelock</string>
     <string name="wakelock_blocker_save">Сохранить</string>
-    <string name="wakelock_list_header">Доступные вэйклоки</string>
+    <string name="wakelock_list_header">Доступные wakelocks</string>
     <string name="wakelock_blocker_reload">Перезагрузить</string>
     <!-- Alarm blocker -->
     <string name="alarm_blocker_title">Блокировщик будящих процессов</string>
@@ -484,7 +485,7 @@
     <string name="screen_state_toggles_mobile_title">Мобильные сети</string>
     <string name="screen_state_toggles_location_title">Местоположение</string>
     <string name="screen_state_toggles_twog">Использовать 2G</string>
-    <string name="screen_state_toggles_twog_summary">Мобильная сеть переключиться на 2G при отключении экрана</string>
+    <string name="screen_state_toggles_twog_summary">Мобильная сеть переключится на 2G при отключении экрана</string>
     <string name="screen_state_toggles_gps">Отключить GPS</string>
     <string name="screen_state_toggles_gps_summary">Не использовать GPS при выключенном экране</string>
     <string name="screen_state_toggles_mobile_data">Отключить мобильную передачу данных</string>
@@ -666,7 +667,7 @@
     <string name="qs_auto_brightness_right_title">Значок автояркости справа</string>
     <string name="qs_auto_brightness_right_summary">Показать значок включения авто-яркости справа от слайдера</string>
     <string name="qs_show_brightness_buttons_title">Кнопки регулировки яркости</string>
-    <string name="qs_show_brightness_buttons_summary">Показать кнопки рядом с ползунок яркости, чтобы настроить яркость</string>
+    <string name="qs_show_brightness_buttons_summary">Показать кнопки рядом с ползунком яркости, чтобы настроить яркость</string>
     <!-- Battery Bar -->
     <string name="battery_bar_title">Полоса заряда батареи</string>
     <string name="battery_bar_summary">Настройка расположения и цвета панели заряда батареи</string>
@@ -791,7 +792,7 @@
     <string name="SHORT_KEY_NOTIFICATION_WHITELIST_DURATION">Максимальная длительность уведомлений из белого списка</string>
     <!-- Time In State & CPU State -->
     <string name="state_time_mode">Режим бодрствования</string>
-    <string name="since_boot">С момента запуска</string>
+    <string name="since_boot">момента запуска</string>
     <string name="since_charged">С момента полной зарядки</string>
     <string name="since_unplugged">С момента отключения зарядки</string>
     <string name="since_reset">Сбросить</string>
@@ -1010,7 +1011,7 @@
     <string name="lockscreen_hide_shortcuts_summary">Скрыть левый и правый ярлыки на экране блокировки</string>
     <string name="hide_lockscreen_indicator_display_title">Скрыть текст состояния снизу</string>
     <string name="hide_lockscreen_indicator_display_summary">Скрыть информацию о зарядке и подсказки для разблокировки</string>
-    <string name="hide_lockscreen_icon_title">Скрыть значок блокировки экрана</string>
+    <string name="hide_lockscreen_icon_title">Показать значок блокировки экрана</string>
     <string name="hide_lockscreen_icon_summary">Изменить видимость значка блокировки</string>
     <!-- QS tile styles -->
     <string name="qs_tile_style_title">Стиль плиток быстрых настроек</string>
@@ -1031,7 +1032,7 @@
     <string name="qstile_pokesign">Мяч покемона</string>
     <string name="qstile_squaremedo">Ромб в квадрате</string>
     <string name="qstile_squircle">Квадрат с закругл. углами</string>
-    <string name="qstile_squircle_trim">Квадрат с закругл. углами (с с окантовкой)</string>
+    <string name="qstile_squircle_trim">Квадрат с закругл. углами (с окантовкой)</string>
     <string name="qstile_teardrop">Каплевидная</string>
     <string name="qstile_wavey">Волнистая</string>
     <!-- Show VoLTE icon on statusbar -->
@@ -1044,6 +1045,8 @@
     <string name="status_bar_notif_count_summary">Показывать число новых уведомлений в строке состояния</string>
     <!-- Weather -->
     <string name="weather_unit">Единица измерения температуры</string>
+	<string name="weather_unit_metric" translatable="false">Цельсий</string>
+    <string name="weather_unit_imperial" translatable="false">Фаренгейт</string>
     <!-- Statusbar ticker -->
     <string name="status_bar_show_ticker_title">Бегущая строка</string>
     <string name="status_bar_show_ticker_summary">Предварительный просмотр уведомлений в строке состояния</string>
@@ -1237,7 +1240,7 @@
 	
     <!-- Ambient music ticker -->
     <string name="force_ambient_for_media_title">Переключатель музыки</string>
-    <string name="force_ambient_for_media_summary">Отображение информации о воспроизводимой музыкальной дорожке на  Ambient дисплее</string>
+    <string name="force_ambient_for_media_summary">Отображение информации о воспроизводимой музыкальной дорожке на  Активном дисплее</string>
 	
     <!-- QS background opacity -->
     <string name="qs_panel_alpha_title">Панель прозрачности быстрых настроек</string>
@@ -1268,9 +1271,9 @@
 	
     <!-- Lockscreen items -->
     <string name="lockscreen_clock_title">Виджет часов</string>
-    <string name="lockscreen_clock_summary">Показать виджет часов на на экране блокировки</string>
-    <string name="lockscreen_info_title">элементы под часами</string>
-    <string name="lockscreen_info_summary">Показать дату, погоду, будильник и Дзэн на на экране блокировки</string>
+    <string name="lockscreen_clock_summary">Показать виджет часов на экране блокировки</string>
+    <string name="lockscreen_info_title">Элементы под часами</string>
+    <string name="lockscreen_info_summary">Показать дату, погоду, будильник и Дзэн на экране блокировки</string>
 	
     <!-- Lockscreen clock styles -->
     <string name="lockscreen_clock_selection_title">Стиль часов</string>
@@ -1341,7 +1344,7 @@
     <string name="pie_theme_mode_title">Тема</string>
     <string name="pie_auto">Автоматически</string>
     <string name="pie_white">Белая</string>
-    <string name="pie_dark">Темный</string>
+    <string name="pie_dark">Темная</string>
     <string name="pie_battery_title">Индикатор батареи</string>
     <string name="pie_battery_text">Только текст</string>
     <string name="pie_battery_circle">Только круг</string>

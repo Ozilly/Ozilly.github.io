@@ -165,12 +165,12 @@
     <string name="land_hor_title">Высота в альбомном режиме</string>
     <string name="positive_done">Готово</string>
     <!-- SmartBar -->
-    <string name="smartbar_category">Умная панель навигации</string>
-    <string name="smartbar_settings_title">Настройки Умной панели</string>
+    <string name="smartbar_category">SmartBar</string>
+    <string name="smartbar_settings_title">Настройки SmartBar</string>
     <string name="smartbar_settings_summary">Полностью настраиваемая панель навигации</string>
     <string name="smartbar_editor_title">Запустить режим редактирования</string>
     <string name="smartbar_editor_summary">Открыть редактор кнопок SmartBar</string>
-    <string name="smartbar_help_policy_notice_summary">Пока вы находитесь в режиме редактирования, нажмите и удерживайте кнопку, чтобы переместить её, или зажмите, чтобы показать меню редактирования. Местоположение кнопок может быть изменено пока отображается меню.\n\nУстановка действия для двойного нажатия немного замедлит одиночное.</string>
+    <string name="smartbar_help_policy_notice_summary">Пока вы находитесь в режиме редактирования, нажмите и удерживайте кнопку, чтобы переместить её, или зажмите, чтобы показать меню редактирования. Местоположение кнопок может быть изменено пока отображается меню.\nУстановка действия для двойного нажатия немного замедлит одиночное.</string>
     <string name="smartbar_context_menu_position_title">Расположение контекстных кнопок</string>
     <string name="smartbar_context_menu_position_summary">Установить расположение контекстных кнопок, таких как меню и выбор способа ввода</string>
     <string name="smartbar_right">Справа</string>
