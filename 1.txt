@@ -1,4 +1,4 @@
 sftp shinigami890@frs.sourceforge.net
-cd /home/pfs/project/azmpm1/X00TD
+cd /home/pfs/project/azmpm1/havoc
 
 ./build/tools/releasetools/ota_from_target_files.py -i out_base/superior_X00TD-target_files-ee3171df9f.zip out/target/product/X00TD/obj/PACKAGING/target_files_intermediates/superior_X00TD-target_files-ee3171df9f.zip ota_diff.zip
