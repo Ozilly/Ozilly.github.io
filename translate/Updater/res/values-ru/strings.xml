@@ -34,101 +34,99 @@
 
     <string name="installing_update">Установка обновлений</string>
     <string name="installing_update_error">Ошибка установки</string>
-    <string name="installing_update_finished">Update installed</string>
-    <string name="finalizing_package">Finalizing package installation</string>
-    <string name="preparing_ota_first_boot">Preparing for first boot</string>
-    <string name="dialog_prepare_zip_message">Preliminary update preparation</string>
-    <string name="dialog_battery_low_title">Low battery</string>
-    <string name="dialog_battery_low_message_pct">The battery level is too low, you need at least <xliff:g id="percent_discharging">%1$d</xliff:g>%% of the battery to continue, <xliff:g id="percent_charging">%2$d</xliff:g>%% if charging.</string>
+    <string name="installing_update_finished">Обновление установлено</string>
+    <string name="finalizing_package">Завершение установки</string>
+    <string name="preparing_ota_first_boot">Подготовка к первому запуску</string>
+    <string name="dialog_prepare_zip_message">Подготовка обновления</string>
+    <string name="dialog_battery_low_title">Низкий заряд батареи</string>
+    <string name="dialog_battery_low_message_pct">Уровень заряда батареи слишком низкий, для продолжения необходимо хотя бы <xliff:g id="percent_discharging">%1$d</xliff:g>%% заряда или <xliff:g id="percent_charging">%2$d</xliff:g>%% во время зарядки.</string>
 
-    <string name="reboot">Reboot</string>
+    <string name="reboot">Перезапуск</string>
 
-    <string name="menu_refresh">Refresh</string>
-    <string name="menu_preferences">Preferences</string>
-    <string name="menu_auto_updates_check">Auto updates check</string>
-    <string name="menu_auto_updates_check_interval_daily">Once a day</string>
-    <string name="menu_auto_updates_check_interval_weekly">Once a week</string>
-    <string name="menu_auto_updates_check_interval_monthly">Once a month</string>
-    <string name="menu_auto_updates_check_interval_never">Never</string>
-    <string name="menu_auto_delete_updates">Delete updates when installed</string>
-    <string name="menu_delete_update">Delete</string>
-    <string name="menu_copy_url">Copy URL</string>
-    <string name="menu_export_update">Export update</string>
-    <string name="menu_ab_perf_mode">Prioritize update process</string>
+    <string name="menu_refresh">Обновить</string>
+    <string name="menu_preferences">Настройки</string>
+    <string name="menu_auto_updates_check">Автоматическая проверка обновлений</string>
+    <string name="menu_auto_updates_check_interval_daily">Раз в день</string>
+    <string name="menu_auto_updates_check_interval_weekly">Раз в неделю</string>
+    <string name="menu_auto_updates_check_interval_monthly">Раз в месяц</string>
+    <string name="menu_auto_updates_check_interval_never">Никогда</string>
+    <string name="menu_auto_delete_updates">Удалить файлы обновления после установки</string>
+    <string name="menu_delete_update">Удалить</string>
+    <string name="menu_copy_url">Копировать URL-адрес</string>
+    <string name="menu_export_update">Экспорт обновлений</string>
+    <string name="menu_ab_perf_mode">Устанавливайте обновления быстрее</string>
 
-    <string name="snack_updates_found">New update available</string>
-    <string name="snack_no_updates_found">Your system is up to date</string>
-    <string name="snack_updates_check_failed">Failed to check for updates</string>
+    <string name="snack_updates_found">Доступно новое обновление</string>
+    <string name="snack_no_updates_found">Обновлений не найдено</string>
+    <string name="snack_updates_check_failed">Не удалось выполнить проверку обновлений</string>
 
-    <string name="snack_download_failed">Failed to download</string>
-    <string name="snack_download_verification_failed">Failed to verify</string>
-    <string name="snack_download_verified">Download complete</string>
+    <string name="snack_download_failed">Загрузка не удалась</string>
+    <string name="snack_download_verification_failed">Ошибка проверки обновления</string>
+    <string name="snack_download_verified">Загрузка завершена</string>
 
-    <string name="snack_update_not_installable">This update can\'t be installed on top of the current build.</string>
+    <string name="snack_update_not_installable">Это обновление не может быть установлено поверх текущей сборки</string>
 
     <string name="header_title_text">Havoc-OS</string>
-    <string name="header_android_version">Android version: <xliff:g id="version" example="7.1.2">%1$s</xliff:g></string>
-    <string name="header_security_patch">Security patch level: <xliff:g id="patch" example="January 5 2019">%1$s</xliff:g></string>
-    <string name="header_last_updates_check">Last successful check for update at <xliff:g id="time" example="01:23">%1$s</xliff:g></string>
+    <string name="header_android_version">Android: <xliff:g id="version" example="7.1.2">%1$s</xliff:g></string>
+    <string name="header_security_patch">Уровень патча безопасности: <xliff:g id="patch" example="January 5 2019">%1$s</xliff:g></string>
+    <string name="header_last_updates_check">Поиск обновлений выполнялся <xliff:g id="time" example="01:23">%1$s</xliff:g></string>
 
     <string name="list_build_version">Havoc-OS <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
     <string name="list_build_version_date">Havoc-OS v<xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
     <string name="list_download_progress_new"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> of <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> • <xliff:g id="percentage" example="56">%3$s</xliff:g></string>
     <string name="list_download_progress_eta_new"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> of <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> (<xliff:g id="eta" example="3 minutes left">%3$s</xliff:g>) • <xliff:g id="percentage" example="56">%4$s</xliff:g></string>
-    <string name="list_verifying_update">Verifying update</string>
+    <string name="list_verifying_update">Проверка обновлений</string>
 
-    <string name="action_download">Download</string>
-    <string name="action_pause">Pause</string>
-    <string name="action_resume">Resume</string>
-    <string name="action_install">Install</string>
-    <string name="action_info">Info</string>
-    <string name="action_delete">Delete</string>
-    <string name="action_cancel">Cancel</string>
-    <string name="action_changelog">Changelog</string>
+    <string name="action_download">Скачать</string>
+    <string name="action_pause">Приостановить</string>
+    <string name="action_resume">Возобновить</string>
+    <string name="action_install">Установить</string>
+    <string name="action_info">Информация</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="action_changelog">Список изменений</string>
 
-    <string name="confirm_delete_dialog_title">Delete file</string>
-    <string name="confirm_delete_dialog_message">Delete the selected update file?</string>
+    <string name="confirm_delete_dialog_title">Удалить файл</string>
+    <string name="confirm_delete_dialog_message">Удалить выбранный файл обновления</string>
 
-    <string name="apply_update_dialog_title">Apply update</string>
-    <string name="apply_update_dialog_message">You are about to upgrade to <xliff:g id="update_name">%1$s</xliff:g>.\n\nIf you press <xliff:g id="ok">%2$s</xliff:g>, the device will restart itself in recovery mode to install the update.\n\nNote: This feature requires a compatible Recovery or updates will need to be installed manually.</string>
-    <string name="apply_update_dialog_message_ab">You are about to upgrade to <xliff:g id="update_name">%1$s</xliff:g>.\n\nIf you press <xliff:g id="ok">%2$s</xliff:g>, the device will begin installing in the background.\n\nOnce completed, you will be prompted to reboot.</string>
+    <string name="apply_update_dialog_title">Применить обновление</string>
+    <string name="apply_update_dialog_message">Будет выполнено обновление до версии <xliff:g id="update_name">%1$s</xliff:g>.\n\nПри нажатии кнопки <xliff:g id="ok">%2$s</xliff:g> устройство будет перезапущено и переведено в режим восстановления для установки новой версии.\n\nПримечание: для этой функции необходим совместимый режим восстановления. При возникновении ошибки потребуется установить обновление вручную</string>
+    <string name="apply_update_dialog_message_ab">Будет выполнено обновление до версии <xliff:g id="update_name">%1$s</xliff:g>.\n\nПри нажатии кнопки <xliff:g id="ok">%2$s</xliff:g> будет начата установка в фоновом режиме.\n\nПо завершении вам будет предложено перезапустить устройство</string>
 
-    <string name="cancel_installation_dialog_message">Cancel the installation?</string>
+    <string name="cancel_installation_dialog_message">Отменить установку?</string>
 
-    <string name="label_download_url">Download URL</string>
-    <string name="toast_download_url_copied">URL Copied</string>
+    <string name="label_download_url">Ссылка для скачивания</string>
+    <string name="toast_download_url_copied">URL скопирован в буфер обмена</string>
 
-    <string name="dialog_export_title">Exporting update</string>
-    <string name="notification_export_success">Update exported</string>
-    <string name="notification_export_fail">Export error</string>
-    <string name="toast_already_exporting">Already exporting an update</string>
+    <string name="dialog_export_title">Экспорт обновлений</string>
+    <string name="notification_export_success">Обновление экспортировано</string>
+    <string name="notification_export_fail">Ошибка экспорта</string>
+    <string name="toast_already_exporting">Экспорт уже выполняется</string>
 
     <plurals name="eta_seconds">
-        <item quantity="one">1 second left</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> seconds left</item>
+        <item quantity="one">1 секунда</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> секунд</item>
     </plurals>
     <plurals name="eta_minutes">
-        <item quantity="one">1 minute left</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> minutes left</item>
+        <item quantity="one">1 минута</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> минут</item>
     </plurals>
     <plurals name="eta_hours">
-        <item quantity="one">1 hour left</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> hours left</item>
+        <item quantity="one">1 час</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> часов</item>
     </plurals>
 
-    <string name="update_on_mobile_data_title">Warning</string>
-    <string name="update_on_mobile_data_message">You\'re about to download an update package using mobile data which is likely going to cause high data usage. Would you like to proceed?</string>
-    <string name="checkbox_mobile_data_warning">Do not show again</string>
-    <string name="menu_mobile_data_warning">Mobile data warning</string>
+    <string name="update_on_mobile_data_title">Предупреждение</string>
+    <string name="update_on_mobile_data_message">Скачивание обновления по мобильной сети расходует большой объем трафика и может привести к непредвиденным расходам. Продолжить?</string>
+    <string name="checkbox_mobile_data_warning">Не показывать это сообщение</string>
+    <string name="menu_mobile_data_warning">Предупрежд. о моб. данных</string>
 
-    <string name="blocked_update_dialog_title">Update blocked</string>
-    <string name="blocked_update_dialog_message">This update cannot be installed using the updater app.</string>
+    <string name="blocked_update_dialog_title">Обновление заблокировано</string>
+    <string name="blocked_update_dialog_message">Эту сборку нельзя установить с помощью встроенной системы обновления</string>
 
-    <string name="export_channel_title">Export completion</string>
-    <string name="new_updates_channel_title">New updates</string>
-    <string name="ongoing_channel_title">Ongoing downloads</string>
-    <string name="update_failed_channel_title">Update failed</string>
-
-    <string name="changelog_url" translatable="false">https://raw.githubusercontent.com/Havoc-Devices/android_vendor_OTA/pie/<xliff:g id="device_name">%1$s</xliff:g>.md</string>
-    <string name="changelog_fail">Failed to retrieve changelog</string>
+    <string name="export_channel_title">Экспорт завершен</string>
+    <string name="new_updates_channel_title">Новые обновления</string>
+    <string name="ongoing_channel_title">Текущие загрузки</string>
+    <string name="update_failed_channel_title">Сбой обновления</string>
+    <string name="changelog_fail">Не удалось получить список изменений</string>
 </resources>
