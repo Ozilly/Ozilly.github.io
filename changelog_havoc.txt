@@ -9,3 +9,4 @@
 4. Added OTA
 5. Fix Russian translations
 6. Lawnchair 1056 with russian translate
+7. Change kernel on AtomCore+
