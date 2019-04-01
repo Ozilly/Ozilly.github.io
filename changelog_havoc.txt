@@ -5,6 +5,9 @@
 4. Добавил ОТА обновления
 5. Фикс русского перевода
 
+
+
+
 English
 1. fix miracast
 2. enable native video calling
