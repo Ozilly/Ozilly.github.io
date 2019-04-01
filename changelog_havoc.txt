@@ -1,4 +1,9 @@
-﻿1. fix miracast
+﻿
+
+
+
+
+1. fix miracast
 2. enable native video calling
 3. fix GPS
 4. Added OTA
