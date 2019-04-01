@@ -1,15 +1,4 @@
-﻿Russian
-1. Починил miracast
-2. Включил нативные видеозвонки
-3. Исправлена работа GPS(после перезагрузки долго цепляет спутники, потом нормализуется)
-4. Добавил ОТА обновления
-5. Фикс русского перевода
-
-
-
-
-English
-1. fix miracast
+﻿1. fix miracast
 2. enable native video calling
 3. fix GPS
 4. Added OTA
