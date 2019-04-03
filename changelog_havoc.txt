@@ -3,10 +3,9 @@
 
 
 
-1. fix miracast
-2. enable native video calling
-3. fix GPS
-4. Added OTA
-5. Fix Russian translations
-6. Lawnchair 1056 with russian translate
-7. Change kernel on AtomCore+
+1. Fix VoLTE on indian operators
+2. Sync for latest Havoc sources
+3. April security patch
+4. Small fixes
+5  Update Lawnchair to 1905 alpha
+6. Add PowerOffAlarm
