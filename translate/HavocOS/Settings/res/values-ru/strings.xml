@@ -7243,6 +7243,7 @@
     <!-- Label of default app for current setting [CHAR LIMIT=40] -->
     <string name="default_app">(по умолчанию)</string>
 	<string name="custom_seekbar_value">Значение:  %s</string>
+	<string name="custom_seekbar_default_value">По умолчанию</string>
     <!-- Label of system app for current setting -->
     <string name="system_app">(системное)</string>
     <!-- Label of system and default app for current setting -->

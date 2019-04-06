@@ -607,6 +607,7 @@
     <string name="clock_date_format_summary">%1$s</string>
     <string name="clock_date_string_edittext_title">Значение должно соответствовать формату ММ/dd/yy</string>
     <string name="clock_date_string_edittext_summary">Ввести значение</string>
+	<string name="edge_gestures_description">Проведите пальцем по краю  снизу вверх, чтобы активировать жест Домой, удерживайте его нажатым, чтобы открыть Недавние приложения. Проведите от нижнего левого или нижнего правого края в противоположную сторону, чтобы активировать жест Назад.</string>
     <string name="date_cat">Дата</string>
     <string name="clock_cat">Часы</string>
     <string name="status_bar_clock_font_style_title">Стиль шрифта</string>
@@ -852,10 +853,10 @@
     <string name="quick_pulldown_title">Быстрый доступ</string>
     <string name="quick_pulldown_summary">Свайп %1$s открывает переключатели</string>
     <string name="quick_pulldown_summary_always">Всегда вытягивать быстрые настройки</string>
-    <string name="quick_pulldown_off">Выкл</string>
-    <string name="quick_pulldown_left">слева</string>
-    <string name="quick_pulldown_right">справа</string>
-    <string name="quick_pulldown_always">всегда</string>
+    <string name="quick_pulldown_off">Выключено</string>
+    <string name="quick_pulldown_left">Слева</string>
+    <string name="quick_pulldown_right">Справа</string>
+    <string name="quick_pulldown_always">Всегда</string>
     <!-- Smart pulldown-->
     <string name="smart_pulldown_title">Умный доступ</string>
     <string name="smart_pulldown_summary">Открывать быстрые настройки %1$s уведомлений</string>
@@ -1046,6 +1047,8 @@
     <string name="status_bar_notif_count_summary">Показывать число новых уведомлений в строке состояния</string>
     <!-- Weather -->
     <string name="weather_unit">Единица измерения температуры</string>
+	<string name="weather_unit_metric" translatable="false">Цельсий</string>
+    <string name="weather_unit_imperial" translatable="false">Фаренгейт</string>
     <!-- Statusbar ticker -->
     <string name="status_bar_show_ticker_title">Бегущая строка</string>
     <string name="status_bar_show_ticker_summary">Предварительный просмотр уведомлений в строке состояния</string>
@@ -1237,7 +1240,7 @@
     <string name="qs_bg_use_fw">Использовать цвета по умолчанию</string>
     <string name="qs_bg_use_fw_summary">Отключить пользовательские стили быстрых настроек для внешних движков тем</string>
     <!-- Switch styles -->
-    <string name="switch_style_title">Переключить видимость</string>
+    <string name="switch_style_title">Вид переключателя</string>
     <string name="switch_default">По умолчанию</string>
     <string name="switch_md2">Материальный дизайн 2</string>
     <string name="switch_oneplus">OnePlus</string>
@@ -1386,4 +1389,10 @@
     <string name="icon_shape_changed_message">Изменение формы значка повлияет только на новые запущенные приложения. Таким образом, рекомендуется перезагрузить устройство, чтобы полностью применить эту настройку. Если некоторые приложения все еще используют старую форму после этого, попробуйте очистить кэш приложения.</string>
     <string name="reboot_dialog_ok">Перезагрузка</string>
     <string name="reboot_dialog_cancel">@string/cancel</string>
+	
+	<!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_title">Фильтр медиа обложек</string>
+    <string name="lockscreen_cover_filter_none">Нет</string>
+    <string name="lockscreen_cover_filter_grayscale">Оттенки серого</string>
+    <string name="lockscreen_cover_filter_blur">Затемнить</string>
 </resources>
