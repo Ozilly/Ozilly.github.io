@@ -1,13 +1,26 @@
 {
-  "response": [
+  "forum_url": "https://forum.xda-developers.com/pixel-2-xl/development/rom-colt-os-enigma-taimen-t3911826", 
+  "build_date": "20190423", 
+  "changelog": "====================\n     04-14-2019\n====================\n\n   * colt_official_devices/\n8466449  taimen: test OTA  [nitin1438]\n   * device/qcom/sepolicy/\n9f1e5a9b  sepolicy: Move definitions from Android.mk to make opt-in  [nitin1438]\n   * vendor/colt/\n24d2a1a  sepolicy: Add sepolicy for OTA app  [nitin1438]\nccc0441  Revert \"Hold OTA for a While\"  [nitin1438]\n\n====================\n     04-13-2019\n====================\n\n\n====================\n     04-12-2019\n====================\n\n\n====================\n     04-11-2019\n====================\n\n\n====================\n     04-10-2019\n====================\n\n\n", 
+  "url": "https://drive.google.com/open?id=1YAnN8j41BLoFZxo8HHXOWWDC20sI1gZ8", 
+  "error": "false", 
+  "filename": "ColtOS-Enigma-4.0_UNOFFICIAL-20190423-X00T.zip", 
+  "filesize": "980919040", 
+  "md5": "7e0ed185f1978348588d981feea042a6", 
+  "donate_url": "https://www.paypal.me/ozilly", 
+  "addons": [
     {
-      "filename": "Havoc-OS-v2.4-20190415-X00T-Unofficial.zip",
-      "version": "v2.4",
-      "romtype": "Unofficial",
-      "size": "678484946",
-      "datetime": 1555345070,
-      "id": "5ccb5fe7f388b790f3a23b7f34c34206f05c4c8d1e01d08034bd2e308408b2b6",
-      "url": "https://sourceforge.net/projects/azmpm1/files/havoc/Havoc-OS-v2.4-20190415-X00T-Unofficial.zip/download"
+      "url": "https://github.com/topjohnwu/Magisk/releases/download/v18.0/Magisk-v18.0.zip", 
+      "summary": "Magisk", 
+      "title": "Magisk"
+    }, 
+    {
+      "url": "https://github.com/topjohnwu/Magisk/releases/download/v18.0/Magisk-uninstaller-20181208.zip", 
+      "summary": "Magisk Uninstaller", 
+      "title": "Magisk"
     }
-  ]
+  ], 
+  "developer_url": "https://forum.xda-developers.com/member.php?u=5044214", 
+  "website_url": "https://plus.google.com/communities/111037372581335961267", 
+  "developer": "ozilly"
 }
