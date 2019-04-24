@@ -1,12 +1,12 @@
 {
-  "forum_url": "https://forum.xda-developers.com/pixel-2-xl/development/rom-colt-os-enigma-taimen-t3911826", 
-  "build_date": "20190423", 
-  "changelog": "====================\n     04-14-2019\n====================\n\n   * colt_official_devices/\n8466449  taimen: test OTA  [nitin1438]\n   * device/qcom/sepolicy/\n9f1e5a9b  sepolicy: Move definitions from Android.mk to make opt-in  [nitin1438]\n   * vendor/colt/\n24d2a1a  sepolicy: Add sepolicy for OTA app  [nitin1438]\nccc0441  Revert \"Hold OTA for a While\"  [nitin1438]\n\n====================\n     04-13-2019\n====================\n\n\n====================\n     04-12-2019\n====================\n\n\n====================\n     04-11-2019\n====================\n\n\n====================\n     04-10-2019\n====================\n\n\n", 
-  "url": "https://drive.google.com/open?id=1YAnN8j41BLoFZxo8HHXOWWDC20sI1gZ8", 
+  "forum_url": "http://4pda.ru/forum/index.php?showtopic=917031", 
+  "build_date": "20190424", 
+  "changelog": "Initial build", 
+  "url": "https://sourceforge.net/projects/azmpm1/files/ColtOS/ColtOS-Enigma-4.0_UNOFFICIAL-20190424-X00T.zip/download", 
   "error": "false", 
-  "filename": "ColtOS-Enigma-4.0_UNOFFICIAL-20190423-X00T.zip", 
-  "filesize": "980919040", 
-  "md5": "7e0ed185f1978348588d981feea042a6", 
+  "filename": "ColtOS-Enigma-4.0_UNOFFICIAL-20190424-X00T.zip", 
+  "filesize": "730606116", 
+  "md5": "f5778c0636c52ab187d1108147aa98c4", 
   "donate_url": "https://www.paypal.me/ozilly", 
   "addons": [
     {
@@ -20,7 +20,7 @@
       "title": "Magisk"
     }
   ], 
-  "developer_url": "https://forum.xda-developers.com/member.php?u=5044214", 
-  "website_url": "https://plus.google.com/communities/111037372581335961267", 
+  "developer_url": "http://4pda.ru/forum/index.php?showuser=1578216", 
+  "website_url": "https://sourceforge.net/projects/azmpm1/files/ColtOS/", 
   "developer": "ozilly"
 }
