@@ -3,7 +3,9 @@
 
 
 
-1. Added Android Q Text Clock
-2. Fix gcam crashes
-3. Latest CAF tag (LA.UM.7.2.r1-06700-sdm660.0) kernel AtomCore
-4. Del SNAP and added SnapdragonCamera
+1. Fix many bugs
+2. Fix certificied on play market
+3. Kernel AtomCore build with clang 9.0.3
+4. Optimized kernel AtomCore for games, now HD graphics are working in pubg
+5. Update Lawnchair to 2035 alpha
+6. Source sync
