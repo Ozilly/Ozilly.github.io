@@ -3,9 +3,8 @@
 
 
 
-1. Fix many bugs
-2. Fix certificied on play market
-3. Kernel AtomCore build with clang 9.0.3
-4. Optimized kernel AtomCore for games, now HD graphics are working in pubg
-5. Update Lawnchair to 2035 alpha
-6. Source sync
+1. Fix screen of torch
+2. Return Zenparts and Dirac
+3. Update Lawnchair to 2048 alpha
+4. Fix falling off fingerprints when unlocking the screen(need test)
+5. Add adreno symlink for camera EIS. Needed for normal work eis(Need test)
