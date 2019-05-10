@@ -3,12 +3,8 @@
 
 
 
-- May security patch
-- Update Lawnchair to 2053 alpha
-- Fix RU translate
-- fix display modem version in settings
-- Add SoundPicker
-- Return SNAP camera
-- Update blobs from jasmine
-- Change the volte icon to a more compact one
-- Source sync
+1. Fix screen of torch
+2. Return Zenparts and Dirac
+3. Update Lawnchair to 2048 alpha
+4. Fix falling off fingerprints when unlocking the screen(need test)
+5. Add adreno symlink for camera EIS. Needed for normal work eis(Need test)
