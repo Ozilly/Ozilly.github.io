@@ -3,12 +3,6 @@
 
 
 
-- May security patch
-- Update Lawnchair to 2053 alpha
 - Fix RU translate
-- fix display modem version in settings
-- Add SoundPicker
-- Return SNAP camera
-- Update blobs from jasmine
-- Change the volte icon to a more compact one
+- Fix small bugs
 - Source sync
