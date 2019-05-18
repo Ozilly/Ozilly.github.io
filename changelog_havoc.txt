@@ -3,6 +3,7 @@
 
 
 
-- Fix RU translate
-- Fix small bugs
+- Fix pa_therm0 (tnx @Anomalchik)
+- Update NFC configs (tnx @alex_msk_99)
+- Update lawnchair to 2066 alpha
 - Source sync
