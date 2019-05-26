@@ -3,6 +3,7 @@
 
 
 
+Recomended clean install!
 - Selinux enforcing
 - Fix VoWiFi(WiFi Calling)
 - Battery usage improved
