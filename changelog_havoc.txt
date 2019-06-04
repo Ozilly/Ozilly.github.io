@@ -3,10 +3,6 @@
 
 
 
-- Selinux enforcing
-- Fix VoWiFi(WiFi Calling)
-- Battery usage improved
-- Fix charge custom chargers in kernel
-- Enable channel bonding for 2,4 GHz
-- Update acdbdata QRD & Camera blobs from stock 16.2010.1905.053 release
+- June security patch
+- Fix small bugs
 - Source sync
