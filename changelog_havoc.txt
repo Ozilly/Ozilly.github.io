@@ -9,7 +9,7 @@
 - Snapdragon camera replace to stock pie camera
 - Gpay works from the box, no need to configure anything
 - Enable Wi-Fi MAC randomization
-- Fixed Zenmotion
+- Fixed Zenmotion(work only kernel in box - atomcore)
 - Other fixes
 - Added Android Q activity animations
 - Added new QS tile styles
