@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "filename": "Havoc-OS-v2.7-20190706-X00T-Unofficial.zip",
+      "filename": "Havoc-OS-v2.7-20190716-X00T-Unofficial.zip",
       "version": "v2.7",
       "romtype": "Unofficial",
-      "size": "703173863",
-      "datetime": 1562432347,
-      "id": "ed6bf663252eae07d0880cedb80ee670edac68bc664e2d609d71d80b23a1e719",
-      "url": "https://sourceforge.net/projects/azmpm1/files/havoc/Havoc-OS-v2.7-20190706-X00T-Unofficial.zip/download"
+      "size": "705369601",
+      "datetime": 1563301061,
+      "id": "1263aabf54fd56c9a40c1ceaa6db7b562fa65907b3ddf63e898fa49d60b58c10",
+      "url": "https://sourceforge.net/projects/azmpm1/files/havoc/Havoc-OS-v2.7-20190716-X00T-Unofficial.zip/download"
     }
   ]
 }
