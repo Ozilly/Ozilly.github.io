@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1566466140,
-      "filename": "AOSiP-9.0-DerpFest-X00T-20190822-122302.zip",
-      "id": "af368f8e19687c660854952905caf06c",
+      "datetime": 1566467090,
+      "filename": "AOSiP-9.0-DerpFest-X00T-20190822-123838.zip",
+      "id": "4a8028d23dd7a29c3d94df024b4f1c20",
       "romtype": "Test",
-      "size": 796856571,
-      "url": "https://example.com/ota-package.zip",
+      "size": 796820407,
+      "url": "https://sourceforge.net/projects/azmpm1/files/Aosip-Derpfest/AOSiP-9.0-DerpFest-X00T-20190822-123838.zip/download",
       "version": "9.0"
     }
   ]
