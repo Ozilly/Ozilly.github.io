@@ -1,0 +1,13 @@
+{
+  "response": [
+    {
+      "datetime": 1566466140,
+      "filename": "AOSiP-9.0-DerpFest-X00T-20190822-122302.zip",
+      "id": "af368f8e19687c660854952905caf06c",
+      "romtype": "Test",
+      "size": 796856571,
+      "url": "https://example.com/ota-package.zip",
+      "version": "9.0"
+    }
+  ]
+}
